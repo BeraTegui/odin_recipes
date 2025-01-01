@@ -6,3 +6,6 @@
     - Fasten the process of creating the basic structure of a website
     - Understand the different parts in which the page will be splitted (heading, body and footer)
     - Don't get tempted to add style to this page now, since it will be done later in the curriculum
+
+# Stylesheet Update
+    
