@@ -11,4 +11,26 @@ body a.links{
     text-align: center;
     text-decoration: underline;
     color: hsl(0, 0%, 0%);
+    font-size: 20px;
+}
+
+body p{
+    font-size: 20px;
+}
+
+body li{
+    text-align: left;
+}
+
+body h3{
+    font-size: 30px;
+}
+
+body h3.instructions{
+    font-size: 30px;
+    text-align: left;
+}
+
+img{
+    border-radius: 15px;
 }
