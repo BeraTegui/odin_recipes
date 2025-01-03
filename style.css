@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    font-family: "Rubik Vinyl", serif;
+    font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
+    box-sizing: border-box;
   }
 
 body{
@@ -13,17 +14,22 @@ body{
 
 .title{
     font-size: 60px;
+    text-decoration: underline;
 }
 
 body a.links{
+    display: block;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     color: hsl(0, 0%, 0%);
-    font-size: 20px;
+    font-size: 24px;
+    margin: 10px;
 }
 
 body p{
     font-size: 20px;
+    max-width: 75%;
+    margin-inline: auto;
 }
 
 body li{
@@ -42,3 +48,23 @@ body h3.instructions{
 img{
     border-radius: 15px;
 }
+
+li{
+    font-size: 20px;
+    margin: 5px;
+}
+
+footer{
+    margin: 20px;
+    padding: 15px;
+}
+
+ol,
+ul{
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 15px;
+}
+
